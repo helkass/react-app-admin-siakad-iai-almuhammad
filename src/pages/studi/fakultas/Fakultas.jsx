@@ -31,7 +31,7 @@ const Fakultas = () => {
             }
          })
          .finally(() => {
-            getDatas("/jurusan");
+            getDatas("/fakultas");
          });
    }
 
